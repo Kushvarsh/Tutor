@@ -35,37 +35,37 @@ The main objectives of this project are:
 🧠 How the System Works
 1. User Input
 
-The user enters a mathematical question in the Streamlit interface.
+   The user enters a mathematical question in the Streamlit interface.
 
 2. Prompt Engineering
 
-  A carefully designed system prompt instructs the LLM to:
+   A carefully designed system prompt instructs the LLM to:
 
-  Solve the problem step-by-step
+     Solve the problem step-by-step
 
-  Return the answer strictly in JSON format
+     Return the answer strictly in JSON format
 
-  Follow a predefined response schema
+     Follow a predefined response schema
 
 3. Output Parsing
 
-  Using PydanticOutputParser, the application:
+   Using PydanticOutputParser, the application:
 
-  Defines the expected response structure
+   Defines the expected response structure
 
-  Validates model output
+   Validates model output
 
-  Ensures structured and clean data
+   Ensures structured and clean data
 
 4. Response Display
 
-  The structured response is displayed as:
+   The structured response is displayed as:
 
-  Problem
+   Problem
 
-  Step-by-step solution
+   Step-by-step solution
 
-  Final answer
+   Final answer
 
 🏗️ Tech Stack
 
